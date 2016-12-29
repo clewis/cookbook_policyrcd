@@ -1,5 +1,5 @@
 maintainer       "Wikia Inc."
-name             "cookbook_policyrcd"
+name             "policyrcd"
 maintainer_email "papilion@hypergeometric.com"
 license          "GPLv2 All rights reserved"
 description      "Installs/Configures /usr/sbin/policy-rc.d"
