@@ -18,7 +18,7 @@ action :create do
       ::File.open(policy_path + "/default-policy", 'w') {|f| f.write(new_resource.status)}
     else
       new_resource.init_actions.each do |action|
-        File.open(policy_path + "/" + action, 'w') {|f| f.write(@new_resource.status)}
+        ::File.open(policy_path + "/" + action, 'w') {|f| f.write(@new_resource.status)}
       end
     end 
   end   
